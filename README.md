@@ -1,0 +1,1 @@
+This repository showcases a common error in Go programming: silent panics caused by division by zero. The `bug.go` file contains the erroneous code, which doesn't handle the case of a zero divisor.  The `bugSolution.go` file demonstrates the correct approach, adding error handling to prevent the panic.
